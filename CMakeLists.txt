@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.0)
+project(BinarySearchTree C)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
+file(GLOB SRC ${CMAKE_CURRENT_SOURCE_DIR}/source/*.c) 
+add_subdirectory(tests)
